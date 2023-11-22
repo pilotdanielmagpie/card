@@ -1,0 +1,18 @@
+.img-container {
+    height: auto;
+    width: auto;
+    
+}
+
+.text-container {
+    height: auto;
+    width: auto;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%)
+}
