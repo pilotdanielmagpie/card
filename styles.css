@@ -1,18 +1,33 @@
-.img-container {
-    height: auto;
-    width: auto;
-    
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: hsl(30, 38%, 92%)
+
+}
+.container {
+    display: flex;
+    align-items: center; 
+    background-color: white;
+    align-items: stretch;
+    border: solid black 2px;
+    border-radius: 10px;
+
+}
+
+img {
+    height: 100%;
+    display: flex;
 }
 
 .text-container {
-    height: auto;
-    width: auto;
+    flex-direction: column;
+
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items:center ;
-    height: 100vh;
-    background-color: hsl(30, 38%, 92%)
-}
+
+
+
+
