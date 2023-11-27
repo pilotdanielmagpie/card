@@ -43,11 +43,82 @@ img {
 
 }
 
-
-
 /*finally got things to fit properly, i didnt take into account the container that the div was in
 also doing height 100% and width is great too. I also learned about border radius and how i need to set the border to
 nothing to get that blended in effect bcuz border adds height. obviously, lol. i changed the overall container width and then adjusted the img to it container and image to it.*/
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+    letter-spacing: 0.2em;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: lighter;
+    margin-left: 30px;
+    
+}
+
+h1 {
+    font-family: 'Fraunces', sans-serif;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 30px;
+    
+}
+
+.first {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.second {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.third {
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.article {
+    margin-left: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    
+}
+
+.para-one {
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.para-two {
+    margin-top: 8px;
+    margin-bottom: 0px;
+}
+
+.para-three {
+    margin-top: 8px;   
+    margin-bottom: 0px;
+}
+
+.para-four {
+    margin-top: 8px;
+
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*I put in the fonts as best as I could, i spaced the two headers and article paragraphs
+with margins, Im not quite sure on how to get the sort of gray color the
+original has. They said that the font weight was either 500 or 700
+Montserrat but even 500 weight does not look like that, also 14px size*/
+
+
 
 
 
