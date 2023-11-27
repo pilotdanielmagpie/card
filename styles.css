@@ -12,22 +12,42 @@ body {
     align-items: center; 
     background-color: white;
     align-items: stretch;
-    border: solid black 2px;
+    border: solid white 0px;
     border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    
+   
 
+    
+    /*i dont understand how to get the border like the reference.*/
 }
 
-img {
+.img-container {
+   height: 438.66px;
+   width: 300px;    
+   
+   border-radius: 10px;
+}
+
+img { 
     height: 100%;
-    display: flex;
+    width: 100%;
+    
 }
+
 
 .text-container {
     flex-direction: column;
+    width: 300px;
 
 }
 
 
+
+/*finally got things to fit properly, i didnt take into account the container that the div was in
+also doing height 100% and width is great too. I also learned about border radius and how i need to set the border to
+nothing to get that blended in effect bcuz border adds height. obviously, lol. i changed the overall container width and then adjusted the img to it container and image to it.*/
 
 
 
