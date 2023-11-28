@@ -38,8 +38,9 @@ img {
 
 
 .text-container {
-    flex-direction: column;
+   
     width: 300px;
+    
 
 }
 
@@ -76,7 +77,7 @@ h1 {
 }
 
 .third {
-    margin-bottom: 10px;
+    margin-bottom: 25px;
     margin-top: 0px;
 }
 
@@ -104,6 +105,7 @@ h1 {
 
 .para-four {
     margin-top: 8px;
+    margin-bottom: 20px;
 
 }
 
@@ -117,6 +119,55 @@ button {
 with margins, Im not quite sure on how to get the sort of gray color the
 original has. They said that the font weight was either 500 or 700
 Montserrat but even 500 weight does not look like that, also 14px size*/
+
+.price {
+    display: flex;
+    justify-content: space-evenly;
+    font-family: "Fraunces", sans-serif;
+    font-size: 35px;
+    color: hsl(158, 36%, 37%);
+    margin-bottom: 15px;
+    
+}
+
+.discounted {
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    color: black; 
+    font-weight: 300px;
+    
+}
+
+.button {
+    justify-content: center;
+    display: flex;
+    
+}
+
+.action img {
+    height: 15px;
+    width: 16px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: solid white;
+    border-radius: 10px;
+    background-color:hsl(158, 36%, 37%);
+    color: white;
+    height: 50px;
+    width: 250px;
+}
+
+
+.add {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+}
 
 
 
